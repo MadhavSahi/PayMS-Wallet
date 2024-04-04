@@ -36,3 +36,13 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+# VS Code specific files
+.vscode/
+!.vscode/settings.json  # Optional, keep your VS Code settings if needed
+!.vscode/extensions.json  # Optional, keep your installed extensions list
+
+# Turborepo specific files
+turbo.lock
+# VS Code settings for specific languages (uncomment if using)
+# .eslintrc.json
+# .prettierrc.json
